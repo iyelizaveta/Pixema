@@ -1,0 +1,32 @@
+.container {
+  width: 370px;
+  height: 100vh;
+  padding: 49px 65px;
+  box-sizing: border-box;
+  background-color: var(--dark-scheme-primary-background-color);
+  position: relative;
+  top: -160px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  color: var(--dark-scheme-light-gray-text-color);
+  margin-top: 65px;
+}
+
+.link {
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.link:hover {
+  color: var(--dark-scheme-purple);
+}
+
+.text {
+  margin-left: 20px;
+}

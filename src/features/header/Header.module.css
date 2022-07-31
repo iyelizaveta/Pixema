@@ -1,0 +1,12 @@
+.container {
+  height: 160px;
+  width: calc(100% - 370px);
+  display: flex;
+  margin-left: 370px;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 40px 65px;
+  background-color: var(--dark-scheme-primary-background-color);
+  box-sizing: border-box;
+}

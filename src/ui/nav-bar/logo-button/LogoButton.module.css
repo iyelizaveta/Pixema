@@ -1,0 +1,13 @@
+.button {
+  width: 160px;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  color: var(--dark-scheme-purple);
+}
+
+.logo {
+  width: 150px;
+  height: 40px;
+}

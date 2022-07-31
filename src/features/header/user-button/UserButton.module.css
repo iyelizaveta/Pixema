@@ -1,0 +1,26 @@
+.container {
+  width: 180px;
+  height: 55px;
+  font-family: "Exo 2", sans-serif;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  color: var(--dark-scheme-white-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userLogo {
+  width: 55px;
+  height: 55px;
+  background-color: var(--dark-scheme-purple);
+  font-size: 20px;
+  padding: 9%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.userName {
+  font-size: 16px;
+}
